@@ -106,6 +106,7 @@ const prevSlide = (e) => {
     cursor: pointer;
     background-color: $lightCyan;
     font-size: 18px;
+    color: $background;
   }
 
   .btn:active,
