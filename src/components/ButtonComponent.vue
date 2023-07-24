@@ -10,7 +10,7 @@ const props = defineProps(['textBtn'])
 .primary-btn {
   background-color: $neonGreen;
   color: $background;
-  padding: 15px 30px;
+  padding: 10px 30px;
   border-radius: 10px;
   border: none;
   margin-top: 50px;

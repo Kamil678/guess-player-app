@@ -20,6 +20,7 @@
 
 <style scoped lang="scss">
 .game-modal {
+  margin: 50px auto;
   border-radius: 10px;
   background-color: $backgroundCard;
   width: 800px;
