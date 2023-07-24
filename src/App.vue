@@ -1,5 +1,5 @@
 <script setup>
-import {RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 //import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -8,13 +8,13 @@ import {RouterView } from 'vue-router'
 </template>
 
 <style lang="scss">
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: $background;
   font-family: sans-serif;
 }

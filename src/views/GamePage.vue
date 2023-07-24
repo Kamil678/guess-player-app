@@ -1,7 +1,18 @@
 <template>
-  <p>jnvbhjf</p>
+  <div class="game-page">
+    <GameComponent />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import GameComponent from '../components/GameComponent.vue'
+</script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.game-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+</style>
