@@ -98,6 +98,56 @@ const dataToGame = [
     club: 'PAOK Saloniki',
     position: 'Obrońca',
     age: '29'
+  },
+  {
+    id: 11,
+    hint1: 'Jest piłkarzem Arsenalu Londyn',
+    hint2: 'Gra na pozycji obrońcy',
+    hint3: 'W swoim klubie gra z numerem 15',
+    name: 'Jakub Kiwior',
+    club: 'Arsenal Londyn',
+    position: 'Obrońca',
+    age: '23'
+  },
+  {
+    id: 12,
+    hint1: 'Jest piłkarzem Spezzi Calcio',
+    hint2: 'Gra na pozycji obrońcy',
+    hint3: 'Słynie z dobrej motoryki i jest lewonożny',
+    name: 'Arkadiusz Reca',
+    club: 'Spezia Calcio',
+    position: 'Obrońca',
+    age: '28'
+  },
+  {
+    id: 13,
+    hint1: 'Jest piłkarzem Clermont Foot 63',
+    hint2: 'Gra na pozycji obrońcy',
+    hint3: 'Środkowy obrońca, który przez długi czas występował w Legii Warszawa',
+    name: 'Mateusz Wieteska',
+    club: 'Clermont Foot 63',
+    position: 'Obrońca',
+    age: '25'
+  },
+  {
+    id: 14,
+    hint1: 'Jest piłkarzem Spezzi Calcio',
+    hint2: 'Gra na pozycji obrońcy',
+    hint3: 'Jest synem Jacka Wiśniewskiego',
+    name: 'Przemysław Wiśniewski',
+    club: 'Spezia Calcio',
+    position: 'Obrońca',
+    age: '24'
+  },
+  {
+    id: 15,
+    hint1: 'Jest piłkarzem  Birmingham City F.C. ',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'W jednym z meczów starcił 2 zęby po zderzeniu z przeciwnikiem',
+    name: 'Krystian Bielik',
+    club: 'Birmingham City F.C.',
+    position: 'Pomocnik',
+    age: '25'
   }
 ]
 
