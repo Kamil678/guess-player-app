@@ -199,6 +199,68 @@ const dataToGame = [
     club: 'Pogoń Szczecin',
     position: 'Pomocnik',
     age: '20'
+  },
+  {
+    id: 21,
+    hint1: 'Jest piłkarzem Club Brugge',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3:
+      'Był jedną z głównych postaci Lecha, który zaszedł do ćwierćfinału Ligi Konferencji w 2022/2023',
+    name: 'Michał Skóraś',
+    club: ' Club Brugge',
+    position: 'Pomocnik',
+    age: '23'
+  },
+  {
+    id: 22,
+    hint1: 'Jest piłkarzem Legii Warszawa',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Jest wychowankiem RKP Rybnik',
+    name: 'Bartosz Slisz',
+    club: 'Legia Warszawa',
+    position: 'Pomocnik',
+    age: '24'
+  },
+  {
+    id: 23,
+    hint1: 'Jest piłkarzem AEK Ateny',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Zdobył bramkę na wagę remisu, w doliczonym czasie gry meczu Polska - Anglia',
+    name: 'Damian Szymański',
+    club: 'AEK Ateny',
+    position: 'Pomocnik',
+    age: '28'
+  },
+  {
+    id: 24,
+    hint1: 'Jest piłkarzem Fenerbahçe SK ',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Występował w klubach takich jak Legia Warszawa, Dinamo Moskwa, Feyenoord',
+    name: 'Sebastian Szymański',
+    club: 'Fenerbahçe SK',
+    position: 'Pomocnik',
+    age: '24'
+  },
+  {
+    id: 25,
+    hint1: 'Jest piłkarzem AS Romy',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Urodził się i wychowywał we Włoszech',
+    name: 'Nicola Zalewski',
+    club: 'AS Roma',
+    position: 'Pomocnik',
+    age: '21'
+  },
+  {
+    id: 26,
+    hint1: 'Jest piłkarzem Charlotte FC',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3:
+      'Mimo małej liczby występów ratował reprezentację Polski już kilkakrotnie, między innymi w meczu z Albanią na wyjeździe, gdzie strzelił gola dającego zwycięstwo',
+    name: 'Karol Świderski',
+    club: 'Charlotte FC',
+    position: 'Napastnik',
+    age: '26'
   }
 ]
 
