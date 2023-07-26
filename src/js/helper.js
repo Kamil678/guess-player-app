@@ -148,6 +148,57 @@ const dataToGame = [
     club: 'Birmingham City F.C.',
     position: 'Pomocnik',
     age: '25'
+  },
+  {
+    id: 16,
+    hint1: 'Jest piłkarzem  RC Lens',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Ma takie same nazwisko jak polski napastnik, na którego mówiono "Franek łowca barmek"',
+    name: 'Przemysław Frankowski',
+    club: 'RC Lens',
+    position: 'Pomocnik',
+    age: '28'
+  },
+  {
+    id: 17,
+    hint1: 'Jest piłkarzem VfL Wolfsburg',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Jest wychowankiem Lecha Poznań',
+    name: 'Jakub Kamiński',
+    club: 'VfL Wolfsburg',
+    position: 'Pomocnik',
+    age: '21'
+  },
+  {
+    id: 18,
+    hint1: 'Jest piłkarzem Rakowa Częstochowa',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'W juniorach występował w reprezantacji Stanów Zjednoczonych',
+    name: 'Ben Lederman',
+    club: 'Raków Częstochowa',
+    position: 'Pomocnik',
+    age: '23'
+  },
+  {
+    id: 19,
+    hint1: 'Jest piłkarzem Torino FC',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3: 'Były piłkarza Lecha Poznań i Sampdorii',
+    name: 'Karol Linetty',
+    club: 'Torino FC',
+    position: 'Pomocnik',
+    age: '28'
+  },
+  {
+    id: 20,
+    hint1: 'Jest piłkarzem Pogoni Szczecin',
+    hint2: 'Gra na pozycji pomocnika',
+    hint3:
+      'Zagrał póki co 1 mecz w reprezentacji Polski wchodząc na boisko w 86 minucie meczu Polska - Holandia',
+    name: 'Mateusz Łęgowski',
+    club: 'Pogoń Szczecin',
+    position: 'Pomocnik',
+    age: '20'
   }
 ]
 
