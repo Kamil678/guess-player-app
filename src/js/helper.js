@@ -1,5 +1,4 @@
-const dataToGame = [
-  {
+const dataToGame = [{
     id: 1,
     hint1: 'Jest piłkarzem FC Barcelony',
     hint2: 'Gra na pozycji napastnika',
@@ -7,7 +6,8 @@ const dataToGame = [
     name: 'Robert Lewandowski',
     club: 'FC Barcelona',
     position: 'Napastnik',
-    age: '34'
+    age: '34',
+    img: '/src/assets/images/Robert-Lewandowski.jpg'
   },
   {
     id: 2,
@@ -17,7 +17,8 @@ const dataToGame = [
     name: 'Piotr Zieliński',
     club: 'Napoli',
     position: 'Pomocnik',
-    age: '29'
+    age: '29',
+    img: '/src/assets/images/Piotr-Zieliński.jpg'
   },
   {
     id: 3,
@@ -27,7 +28,8 @@ const dataToGame = [
     name: 'Wojciech Szczęsny',
     club: 'Juventus Turyn',
     position: 'Bramkarz',
-    age: '33'
+    age: '33',
+    img: '/src/assets/images/Wojciech-Szczesny.jpg'
   },
   {
     id: 4,
@@ -37,30 +39,22 @@ const dataToGame = [
     name: 'Arkadiusz Milik',
     club: 'Juventus Turyn',
     position: 'Napastnik',
-    age: '29'
+    age: '29',
+    img: '/src/assets/images/Arkadiusz-Milik.jpg'
   },
   {
     id: 5,
-    hint1: 'Jest piłkarzem Juventusu Turyn',
-    hint2: 'Gra na pozycji napastnika',
-    hint3: 'Rozpoczął swoją karierę w Górniku Zabrze',
-    name: 'Arkadiusz Milik',
-    club: 'Juventus Turyn',
-    position: 'Napastnik',
-    age: '29'
-  },
-  {
-    id: 6,
     hint1: 'Jest piłkarzem Spezii Calcio',
     hint2: 'Gra na pozycji bramkarza',
     hint3: 'W bardzo młodym wieku zadebiutował w Jagielonii Białystok',
     name: 'Bartłomiej Drągowski',
     club: 'Spezia Calcio',
     position: 'Bramkarz',
-    age: '25'
+    age: '25',
+    img: 'src/assets/images/bartlomiej-dragowski.jpg'
   },
   {
-    id: 7,
+    id: 6,
     hint1: 'Jest piłkarzem Bolognii FC',
     hint2: 'Gra na pozycji bramkarza',
     hint3: 'W wywiadzie ujawnił dokładnie jak to było z premiami na Mistrzostawach Świata',
@@ -70,7 +64,7 @@ const dataToGame = [
     age: '32'
   },
   {
-    id: 8,
+    id: 7,
     hint1: 'Jest piłkarzem Southampton F.C.',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'Strzelił gola w meczu z Japonią na Mistrzostwach Świata w 2018 roku',
@@ -80,7 +74,7 @@ const dataToGame = [
     age: '27'
   },
   {
-    id: 9,
+    id: 8,
     hint1: 'Jest piłkarzem Sampdorii',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'W reprezentacji gra najczęściej na lewej obronie mimo, że jest prawym obrońcą',
@@ -90,7 +84,7 @@ const dataToGame = [
     age: '31'
   },
   {
-    id: 10,
+    id: 9,
     hint1: 'Jest piłkarzem PAOKu Saloniki',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'Gdy rozpoczęła się wojna w Ukrainie, grał w jednym z tamtejszych klubów',
@@ -100,7 +94,7 @@ const dataToGame = [
     age: '29'
   },
   {
-    id: 11,
+    id: 10,
     hint1: 'Jest piłkarzem Arsenalu Londyn',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'W swoim klubie gra z numerem 15',
@@ -110,7 +104,7 @@ const dataToGame = [
     age: '23'
   },
   {
-    id: 12,
+    id: 11,
     hint1: 'Jest piłkarzem Spezzi Calcio',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'Słynie z dobrej motoryki i jest lewonożny',
@@ -120,7 +114,7 @@ const dataToGame = [
     age: '28'
   },
   {
-    id: 13,
+    id: 12,
     hint1: 'Jest piłkarzem Clermont Foot 63',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'Środkowy obrońca, który przez długi czas występował w Legii Warszawa',
@@ -130,7 +124,7 @@ const dataToGame = [
     age: '25'
   },
   {
-    id: 14,
+    id: 13,
     hint1: 'Jest piłkarzem Spezzi Calcio',
     hint2: 'Gra na pozycji obrońcy',
     hint3: 'Jest synem Jacka Wiśniewskiego',
@@ -140,7 +134,7 @@ const dataToGame = [
     age: '24'
   },
   {
-    id: 15,
+    id: 14,
     hint1: 'Jest piłkarzem  Birmingham City F.C. ',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'W jednym z meczów starcił 2 zęby po zderzeniu z przeciwnikiem',
@@ -150,7 +144,7 @@ const dataToGame = [
     age: '25'
   },
   {
-    id: 16,
+    id: 15,
     hint1: 'Jest piłkarzem  RC Lens',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Ma takie same nazwisko jak polski napastnik, na którego mówiono "Franek łowca barmek"',
@@ -160,7 +154,7 @@ const dataToGame = [
     age: '28'
   },
   {
-    id: 17,
+    id: 16,
     hint1: 'Jest piłkarzem VfL Wolfsburg',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Jest wychowankiem Lecha Poznań',
@@ -170,7 +164,7 @@ const dataToGame = [
     age: '21'
   },
   {
-    id: 18,
+    id: 17,
     hint1: 'Jest piłkarzem Rakowa Częstochowa',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'W juniorach występował w reprezantacji Stanów Zjednoczonych',
@@ -180,7 +174,7 @@ const dataToGame = [
     age: '23'
   },
   {
-    id: 19,
+    id: 18,
     hint1: 'Jest piłkarzem Torino FC',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Były piłkarza Lecha Poznań i Sampdorii',
@@ -190,29 +184,27 @@ const dataToGame = [
     age: '28'
   },
   {
-    id: 20,
+    id: 19,
     hint1: 'Jest piłkarzem Pogoni Szczecin',
     hint2: 'Gra na pozycji pomocnika',
-    hint3:
-      'Zagrał póki co 1 mecz w reprezentacji Polski wchodząc na boisko w 86 minucie meczu Polska - Holandia',
+    hint3: 'Zagrał póki co 1 mecz w reprezentacji Polski wchodząc na boisko w 86 minucie meczu Polska - Holandia',
     name: 'Mateusz Łęgowski',
     club: 'Pogoń Szczecin',
     position: 'Pomocnik',
     age: '20'
   },
   {
-    id: 21,
+    id: 20,
     hint1: 'Jest piłkarzem Club Brugge',
     hint2: 'Gra na pozycji pomocnika',
-    hint3:
-      'Był jedną z głównych postaci Lecha, który zaszedł do ćwierćfinału Ligi Konferencji w 2022/2023',
+    hint3: 'Był jedną z głównych postaci Lecha, który zaszedł do ćwierćfinału Ligi Konferencji w 2022/2023',
     name: 'Michał Skóraś',
     club: ' Club Brugge',
     position: 'Pomocnik',
     age: '23'
   },
   {
-    id: 22,
+    id: 21,
     hint1: 'Jest piłkarzem Legii Warszawa',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Jest wychowankiem RKP Rybnik',
@@ -222,7 +214,7 @@ const dataToGame = [
     age: '24'
   },
   {
-    id: 23,
+    id: 22,
     hint1: 'Jest piłkarzem AEK Ateny',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Zdobył bramkę na wagę remisu, w doliczonym czasie gry meczu Polska - Anglia',
@@ -232,7 +224,7 @@ const dataToGame = [
     age: '28'
   },
   {
-    id: 24,
+    id: 23,
     hint1: 'Jest piłkarzem Fenerbahçe SK ',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Występował w klubach takich jak Legia Warszawa, Dinamo Moskwa, Feyenoord',
@@ -242,7 +234,7 @@ const dataToGame = [
     age: '24'
   },
   {
-    id: 25,
+    id: 24,
     hint1: 'Jest piłkarzem AS Romy',
     hint2: 'Gra na pozycji pomocnika',
     hint3: 'Urodził się i wychowywał we Włoszech',
@@ -252,16 +244,17 @@ const dataToGame = [
     age: '21'
   },
   {
-    id: 26,
+    id: 25,
     hint1: 'Jest piłkarzem Charlotte FC',
     hint2: 'Gra na pozycji pomocnika',
-    hint3:
-      'Mimo małej liczby występów ratował reprezentację Polski już kilkakrotnie, między innymi w meczu z Albanią na wyjeździe, gdzie strzelił gola dającego zwycięstwo',
+    hint3: 'Mimo małej liczby występów ratował reprezentację Polski już kilkakrotnie, między innymi w meczu z Albanią na wyjeździe, gdzie strzelił gola dającego zwycięstwo',
     name: 'Karol Świderski',
     club: 'Charlotte FC',
     position: 'Napastnik',
     age: '26'
   }
-]
+];
 
-export { dataToGame }
+export {
+  dataToGame
+}

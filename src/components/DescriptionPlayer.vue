@@ -1,8 +1,8 @@
 <template>
   <div class="description-player">
-    <p class="hint1">{{ currentPlayer.hint1 }}</p>
-    <p class="hint2">{{ currentPlayer.hint2 }}</p>
-    <p class="hint3">{{ currentPlayer.hint3 }}</p>
+    <p class="hint1">{{ drawedPlayer.hint1 }}</p>
+    <p class="hint2">{{ drawedPlayer.hint2 }}</p>
+    <p class="hint3">{{ drawedPlayer.hint3 }}</p>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 import { dataToGame } from '../js/helper'
 import { ref } from 'vue'
 
-const props = defineProps(['idPlayer'])
+const props = defineProps(['drawedPlayer'])
 
 let currentPlayer = ref(dataToGame.find((player) => player.id === props.idPlayer))
 </script>

@@ -4,6 +4,8 @@ import {
 } from 'vue-router';
 import WelcomePage from '../views/WelcomePage.vue';
 import GamePage from '../views/GamePage.vue'
+import ResultPage from '../views/ResultPage.vue'
+
 
 const router = createRouter({
   history: createWebHistory(
@@ -17,6 +19,11 @@ const router = createRouter({
       path: '/game',
       name: 'game',
       component: GamePage
+    },
+    {
+      path: '/result',
+      name: 'result',
+      component: ResultPage
     }
   ]
 })

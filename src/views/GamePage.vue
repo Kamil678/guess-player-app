@@ -1,10 +1,10 @@
 <template>
   <div class="game-page">
-    <GameComponent :id-player="idPlayer" />
-    <InputComponent :value-input="valueInput" />
+    <GameComponent :drawed-player="currentPlayer" />
+    <InputComponent :value-input="valueInput" @update:model-value="updateInput" />
     <div class="action">
       <ButtonComponent text-btn="Powrót" @clickBtn="clickBackBtn" />
-      <ButtonComponent text-btn="Odpowiadam" @clickBtn="clickStartGame" />
+      <ButtonComponent text-btn="Odpowiadam" @clickBtn="clickAnswer" />
     </div>
   </div>
 </template>
@@ -18,17 +18,41 @@ import { useRouter } from 'vue-router'
 import { dataToGame } from '../js/helper'
 
 const router = useRouter()
-const valueInput = ref('')
+
+let valueInput = ref('')
+const updateInput = (val) => {
+  valueInput.value = val
+}
 
 const clickBackBtn = () => {
   router.push('/')
 }
 
+const clickAnswer = () => {
+  checkAnswer()
+  router.push({
+    path: '/result',
+    query: { idPlayer: idPlayer.value, correctAnswer: correctAnswer }
+  })
+}
+
 let idPlayer = ref(null)
 const drawPlayer = () => {
-  idPlayer = Math.floor(Math.random() * dataToGame.length)
+  idPlayer.value = Math.floor(Math.random() * dataToGame.length)
 }
+
 drawPlayer()
+
+let currentPlayer = ref(dataToGame.find((player) => player.id === idPlayer.value))
+
+let correctAnswer
+const checkAnswer = () => {
+  if (valueInput.value.toLowerCase() === currentPlayer.value.name.toLowerCase()) {
+    correctAnswer = true
+  } else {
+    correctAnswer = false
+  }
+}
 </script>
 
 <style scoped lang="scss">
