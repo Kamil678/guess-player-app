@@ -1,6 +1,6 @@
 <template>
   <div class="game-page">
-    <GameComponent />
+    <GameComponent :id-player="idPlayer" />
     <InputComponent :value-input="valueInput" />
     <div class="action">
       <ButtonComponent text-btn="Powrót" @clickBtn="clickBackBtn" />
@@ -15,6 +15,7 @@ import GameComponent from '../components/GameComponent.vue'
 import InputComponent from '../components/InputComponent.vue'
 import ButtonComponent from '../components/ButtonComponent.vue'
 import { useRouter } from 'vue-router'
+import { dataToGame } from '../js/helper'
 
 const router = useRouter()
 const valueInput = ref('')
@@ -22,6 +23,12 @@ const valueInput = ref('')
 const clickBackBtn = () => {
   router.push('/')
 }
+
+let idPlayer = ref(null)
+const drawPlayer = () => {
+  idPlayer = Math.floor(Math.random() * dataToGame.length)
+}
+drawPlayer()
 </script>
 
 <style scoped lang="scss">
