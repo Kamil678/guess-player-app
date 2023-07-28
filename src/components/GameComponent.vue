@@ -19,13 +19,23 @@ const props = defineProps(['drawedPlayer'])
 
 <style scoped lang="scss">
 .game-modal {
-  margin: 50px auto;
+  margin: 50px auto 70px auto;
   border-radius: 10px;
   background-color: $backgroundCard;
-  width: 800px;
-  min-width: 800px;
+  width: 300px;
+  max-width: 300px;
   position: relative;
   padding: 30px;
+
+  @media (min-width: 576px) {
+    width: 500px;
+    min-width: 500px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 800px;
+    min-width: 800px;
+  }
 
   .game-picture {
     width: 200px;

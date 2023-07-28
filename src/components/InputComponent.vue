@@ -15,7 +15,7 @@ defineEmits(['update:modelValue'])
 
 <style lang="scss">
 .input-primary {
-  width: 500px;
+  width: 250px;
   height: 50px;
   background-color: transparent;
   color: $lightCyan;
@@ -24,5 +24,13 @@ defineEmits(['update:modelValue'])
   padding: 10px 15px;
   font-size: 20px;
   text-align: center;
+
+  @media (min-width: 576px) {
+    width: 450px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 500px;
+  }
 }
 </style>

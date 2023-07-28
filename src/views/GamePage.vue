@@ -60,11 +60,22 @@ const checkAnswer = () => {
   text-align: center;
 
   .action {
-    width: 800px;
-    margin: 0 auto;
+    width: 300px;
+    margin: 20px auto 20px auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    button {
+      margin-top: 20px;
+    }
+
+    @media (min-width: 1024px) {
+      width: 800px;
+      flex-direction: row;
+      margin: 30px auto;
+    }
   }
 }
 </style>

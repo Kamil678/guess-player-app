@@ -74,12 +74,12 @@ const prevSlide = (e) => {
 .slider {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   width: 100%;
   max-width: 600px;
   height: 350px;
   position: relative;
   overflow: hidden;
+  margin: 50px 30px 0 30px;
 
   .slide {
     width: 100%;
