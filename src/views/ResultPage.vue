@@ -1,7 +1,7 @@
 <template>
   <div class="answer">
     <h2 v-if="router.currentRoute.value.query.correctAnswer == 'true'" class="correct-answer">
-      Gratulacje! {{ router.currentRoute.value.query.correctAnswer }}
+      Gratulacje!
     </h2>
     <h2 v-else class="incorrect-answer">Niestety nie zgadłeś</h2>
     <p>
@@ -22,7 +22,7 @@
     <IconComponent />
   </div>
   <div class="action">
-    <ButtonComponent text-btn="Powrót do strony głównej" @clickBtn="clickBackBtn" />
+    <ButtonComponent text-btn="Powrót" @clickBtn="clickBackBtn" />
     <ButtonComponent text-btn="Następny piłkarz" @clickBtn="clickNextPlayer" />
   </div>
 </template>
@@ -87,15 +87,29 @@ body {
   margin: 30px auto;
   border-radius: 10px;
   background-color: $backgroundCard;
-  width: 800px;
-  min-width: 800px;
+  width: 300px;
+  min-width: 300px;
   position: relative;
   padding: 30px;
 
+  @media (min-width: 576px) {
+    width: 500px;
+    min-width: 500px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 800px;
+    min-width: 800px;
+  }
+
   .player-photo {
-    width: 300px;
+    width: 250px;
     height: auto;
     margin: 0 auto;
+
+    @media (min-width: 1024px) {
+      width: 300px;
+    }
 
     img {
       width: 100%;
@@ -118,11 +132,18 @@ body {
 }
 
 .action {
-  width: 800px;
-  margin: 0 auto;
+  width: 300px;
+  margin: 40px auto 20px auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    width: 800px;
+    flex-direction: row;
+    margin: 30px auto;
+  }
 
   button {
     margin-top: 20px;

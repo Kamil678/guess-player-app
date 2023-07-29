@@ -75,11 +75,21 @@ const prevSlide = (e) => {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 600px;
-  height: 350px;
+  max-width: 300px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   margin: 50px 30px 0 30px;
+
+  @media (min-width: 576px) {
+    max-width: 500px;
+    height: 300px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 600px;
+    height: 350px;
+  }
 
   .slide {
     width: 100%;

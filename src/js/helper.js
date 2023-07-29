@@ -61,7 +61,8 @@ const dataToGame = [{
     name: 'Łukasz Skorupski',
     club: 'Bologna FC',
     position: 'Bramkarz',
-    age: '32'
+    age: '32',
+    img: 'src/assets/images/lukasz-skorupski.jpg'
   },
   {
     id: 7,
@@ -71,7 +72,8 @@ const dataToGame = [{
     name: 'Jan Bednarek',
     club: 'Southampton F.C.',
     position: 'Obrońca',
-    age: '27'
+    age: '27',
+    img: 'src/assets/images/jan-bednarek.jpeg'
   },
   {
     id: 8,
@@ -81,7 +83,8 @@ const dataToGame = [{
     name: 'Bartosz Bereszyński',
     club: 'UC Sampdoria',
     position: 'Obrońca',
-    age: '31'
+    age: '31',
+    img: 'src/assets/images/bartosz-bereszynski.jpg'
   },
   {
     id: 9,
@@ -91,7 +94,8 @@ const dataToGame = [{
     name: 'Tomasz Kędziora',
     club: 'PAOK Saloniki',
     position: 'Obrońca',
-    age: '29'
+    age: '29',
+    img: 'src/assets/images/tomasz-kedziora.jpg'
   },
   {
     id: 10,
@@ -101,7 +105,8 @@ const dataToGame = [{
     name: 'Jakub Kiwior',
     club: 'Arsenal Londyn',
     position: 'Obrońca',
-    age: '23'
+    age: '23',
+    img: 'src/assets/images/jakub-kiwior.jpg'
   },
   {
     id: 11,
@@ -111,7 +116,8 @@ const dataToGame = [{
     name: 'Arkadiusz Reca',
     club: 'Spezia Calcio',
     position: 'Obrońca',
-    age: '28'
+    age: '28',
+    img: 'src/assets/images/arkadiusz-reca.jpg'
   },
   {
     id: 12,
@@ -121,7 +127,8 @@ const dataToGame = [{
     name: 'Mateusz Wieteska',
     club: 'Clermont Foot 63',
     position: 'Obrońca',
-    age: '25'
+    age: '25',
+    img: 'src/assets/images/mateusz-wieteska.jpg'
   },
   {
     id: 13,
@@ -131,7 +138,8 @@ const dataToGame = [{
     name: 'Przemysław Wiśniewski',
     club: 'Spezia Calcio',
     position: 'Obrońca',
-    age: '24'
+    age: '24',
+    img: 'src/assets/images/przemyslaw-wisniewski.jpg'
   },
   {
     id: 14,
@@ -141,7 +149,8 @@ const dataToGame = [{
     name: 'Krystian Bielik',
     club: 'Birmingham City F.C.',
     position: 'Pomocnik',
-    age: '25'
+    age: '25',
+    img: 'src/assets/images/krystian-bielik.jpg'
   },
   {
     id: 15,
@@ -151,7 +160,8 @@ const dataToGame = [{
     name: 'Przemysław Frankowski',
     club: 'RC Lens',
     position: 'Pomocnik',
-    age: '28'
+    age: '28',
+    img: 'src/assets/images/przemyslaw-frankowski.jpg'
   },
   {
     id: 16,
@@ -161,7 +171,8 @@ const dataToGame = [{
     name: 'Jakub Kamiński',
     club: 'VfL Wolfsburg',
     position: 'Pomocnik',
-    age: '21'
+    age: '21',
+    img: 'src/assets/images/jakub-kaminski.jpg'
   },
   {
     id: 17,
@@ -171,7 +182,8 @@ const dataToGame = [{
     name: 'Ben Lederman',
     club: 'Raków Częstochowa',
     position: 'Pomocnik',
-    age: '23'
+    age: '23',
+    img: 'src/assets/images/ben-lederman.jpg'
   },
   {
     id: 18,
@@ -181,7 +193,8 @@ const dataToGame = [{
     name: 'Karol Linetty',
     club: 'Torino FC',
     position: 'Pomocnik',
-    age: '28'
+    age: '28',
+    img: 'src/assets/images/karol-linetty.jpg'
   },
   {
     id: 19,
@@ -191,7 +204,8 @@ const dataToGame = [{
     name: 'Mateusz Łęgowski',
     club: 'Pogoń Szczecin',
     position: 'Pomocnik',
-    age: '20'
+    age: '20',
+    img: 'src/assets/images/mateusz-legowski.jpg'
   },
   {
     id: 20,
@@ -201,7 +215,8 @@ const dataToGame = [{
     name: 'Michał Skóraś',
     club: ' Club Brugge',
     position: 'Pomocnik',
-    age: '23'
+    age: '23',
+    img: 'src/assets/images/michal-skoras.jpg'
   },
   {
     id: 21,
@@ -211,7 +226,8 @@ const dataToGame = [{
     name: 'Bartosz Slisz',
     club: 'Legia Warszawa',
     position: 'Pomocnik',
-    age: '24'
+    age: '24',
+    img: 'src/assets/images/bartosz-slisz.jpg'
   },
   {
     id: 22,
@@ -221,7 +237,8 @@ const dataToGame = [{
     name: 'Damian Szymański',
     club: 'AEK Ateny',
     position: 'Pomocnik',
-    age: '28'
+    age: '28',
+    img: 'src/assets/images/damian-szymanski.jpg'
   },
   {
     id: 23,
@@ -231,7 +248,8 @@ const dataToGame = [{
     name: 'Sebastian Szymański',
     club: 'Fenerbahçe SK',
     position: 'Pomocnik',
-    age: '24'
+    age: '24',
+    img: 'src/assets/images/sebastian-szymanski.jpg'
   },
   {
     id: 24,
@@ -241,7 +259,8 @@ const dataToGame = [{
     name: 'Nicola Zalewski',
     club: 'AS Roma',
     position: 'Pomocnik',
-    age: '21'
+    age: '21',
+    img: 'src/assets/images/nicola-zalewski.jpg'
   },
   {
     id: 25,
@@ -251,7 +270,8 @@ const dataToGame = [{
     name: 'Karol Świderski',
     club: 'Charlotte FC',
     position: 'Napastnik',
-    age: '26'
+    age: '26',
+    img: 'src/assets/images/karol-swiderski.jpg'
   }
 ];
 

@@ -26,9 +26,11 @@ body {
 .welcome {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
   height: 100vh;
+  text-align: center;
+  margin: 50px 20px;
 }
 
 h1.welcome-text {
