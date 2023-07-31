@@ -10,21 +10,25 @@
 
 <script setup>
 import { onMounted } from 'vue'
+import RLImage from '../assets/images/Robert-Lewandowski.jpg'
+import WSImage from '../assets/images/Wojciech-Szczesny.jpg'
+import PZImage from '../assets/images/Piotr-Zieliński.jpg'
+import AMImage from '../assets/images/Arkadiusz-Milik.jpg'
 const dataToSlider = [
   {
-    img: 'images/Robert-Lewandowski.jpg',
+    img: RLImage,
     name: 'Robert Lewandowski'
   },
   {
-    img: 'src/assets/images/Wojciech-Szczesny.jpg',
+    img: WSImage,
     name: 'Wojciech Szczęsny'
   },
   {
-    img: 'src/assets/images/Piotr-Zieliński.jpg',
+    img: PZImage,
     name: 'Piotr Zieliński'
   },
   {
-    img: 'src/assets/images/Arkadiusz-Milik.jpg',
+    img: AMImage,
     name: 'Arkadiusz Milik'
   }
 ]
