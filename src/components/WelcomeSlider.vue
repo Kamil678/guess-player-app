@@ -12,7 +12,7 @@
 import { onMounted } from 'vue'
 const dataToSlider = [
   {
-    img: '@/assets/images/Robert-Lewandowski.jpg',
+    img: "require('../assets/images/Robert-Lewandowski.jpg')",
     name: 'Robert Lewandowski'
   },
   {
