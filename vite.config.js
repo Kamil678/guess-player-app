@@ -18,7 +18,7 @@ export default defineConfig({
         import.meta.url))
     }
   },
-  publicPath: "/guess-player-app/",
+  base: "/guess-player-app/",
   css: {
     preprocessorOptions: {
       scss: {
