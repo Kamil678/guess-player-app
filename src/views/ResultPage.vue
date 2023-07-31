@@ -36,8 +36,6 @@ import ButtonComponent from '../components/ButtonComponent.vue'
 
 const router = useRouter()
 
-console.log(router.currentRoute.value.query.correctAnswer)
-
 let playerToGuess = ref(
   dataToGame.find((player) => player.id == router.currentRoute.value.query.idPlayer)
 )
