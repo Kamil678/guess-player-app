@@ -3,6 +3,27 @@ import WojciechSzczesnyImage from '../assets/images/Wojciech-Szczesny.jpg'
 import PiotrZielinskiImage from '../assets/images/Piotr-Zieliński.jpg'
 import ArkadiuszMilikImage from '../assets/images/Arkadiusz-Milik.jpg'
 import BartlomiejDragowskiImage from '../assets/images/bartlomiej-dragowski.jpg'
+import LukaszSkorupskiImage from '../assets/images/lukasz-skorupski.jpg'
+import JanBednarekImage from '../assets/images/jan-bednarek.jpeg'
+import BartoszBereszynskiImage from '../assets/images/bartosz-bereszynski.jpg'
+import TomaszKedzioraImage from '../assets/images/tomasz-kedziora.jpg'
+import JakubKiwiorImage from '../assets/images/jakub-kiwior.jpg'
+import ArkadiuszRecaImage from '../assets/images/arkadiusz-reca.jpg'
+import MateuszWieteskaImage from '../assets/images/mateusz-wieteska.jpg'
+import PrzemyslawWisniewskiImage from '../assets/images/przemyslaw-wisniewski.jpg'
+import KrystianBielikImage from '../assets/images/krystian-bielik.jpg'
+import PrzemyslawFrankowskiImage from '../assets/images/przemyslaw-frankowski.jpg'
+import JakubKaminskiImage from '../assets/images/jakub-kaminski.jpg'
+import BenLedermanImage from '../assets/images/ben-lederman.jpg'
+import KarolLinettyImage from '../assets/images/karol-linetty.jpg'
+import MateuszLegowskiImage from '../assets/images/mateusz-legowski.jpg'
+import MichalSkorasImage from '../assets/images/michal-skoras.jpg'
+import BartoszSliszImage from '../assets/images/bartosz-slisz.jpg'
+import DamianSzymanskiImage from '../assets/images/damian-szymanski.jpg'
+import SebastianSzymanskiImage from '../assets/images/sebastian-szymanski.jpg'
+import NicolaZalewskiImage from '../assets/images/nicola-zalewski.jpg'
+import KarolSwiderskiImage from '../assets/images/karol-swiderski.jpg'
+
 
 const dataToGame = [{
     id: 1,
@@ -68,7 +89,7 @@ const dataToGame = [{
     club: 'Bologna FC',
     position: 'Bramkarz',
     age: '32',
-    img: 'src/assets/images/lukasz-skorupski.jpg'
+    img: LukaszSkorupskiImage
   },
   {
     id: 7,
@@ -79,7 +100,7 @@ const dataToGame = [{
     club: 'Southampton F.C.',
     position: 'Obrońca',
     age: '27',
-    img: 'src/assets/images/jan-bednarek.jpeg'
+    img: JanBednarekImage
   },
   {
     id: 8,
@@ -90,7 +111,7 @@ const dataToGame = [{
     club: 'UC Sampdoria',
     position: 'Obrońca',
     age: '31',
-    img: 'src/assets/images/bartosz-bereszynski.jpg'
+    img: BartoszBereszynskiImage
   },
   {
     id: 9,
@@ -101,7 +122,7 @@ const dataToGame = [{
     club: 'PAOK Saloniki',
     position: 'Obrońca',
     age: '29',
-    img: 'src/assets/images/tomasz-kedziora.jpg'
+    img: TomaszKedzioraImage
   },
   {
     id: 10,
@@ -112,7 +133,7 @@ const dataToGame = [{
     club: 'Arsenal Londyn',
     position: 'Obrońca',
     age: '23',
-    img: 'src/assets/images/jakub-kiwior.jpg'
+    img: JakubKiwiorImage
   },
   {
     id: 11,
@@ -123,7 +144,7 @@ const dataToGame = [{
     club: 'Spezia Calcio',
     position: 'Obrońca',
     age: '28',
-    img: 'src/assets/images/arkadiusz-reca.jpg'
+    img: ArkadiuszRecaImage
   },
   {
     id: 12,
@@ -134,7 +155,7 @@ const dataToGame = [{
     club: 'Clermont Foot 63',
     position: 'Obrońca',
     age: '25',
-    img: 'src/assets/images/mateusz-wieteska.jpg'
+    img: MateuszWieteskaImage
   },
   {
     id: 13,
@@ -145,7 +166,7 @@ const dataToGame = [{
     club: 'Spezia Calcio',
     position: 'Obrońca',
     age: '24',
-    img: 'src/assets/images/przemyslaw-wisniewski.jpg'
+    img: PrzemyslawWisniewskiImage
   },
   {
     id: 14,
@@ -156,7 +177,7 @@ const dataToGame = [{
     club: 'Birmingham City F.C.',
     position: 'Pomocnik',
     age: '25',
-    img: 'src/assets/images/krystian-bielik.jpg'
+    img: KrystianBielikImage
   },
   {
     id: 15,
@@ -167,7 +188,7 @@ const dataToGame = [{
     club: 'RC Lens',
     position: 'Pomocnik',
     age: '28',
-    img: 'src/assets/images/przemyslaw-frankowski.jpg'
+    img: PrzemyslawFrankowskiImage
   },
   {
     id: 16,
@@ -178,7 +199,7 @@ const dataToGame = [{
     club: 'VfL Wolfsburg',
     position: 'Pomocnik',
     age: '21',
-    img: 'src/assets/images/jakub-kaminski.jpg'
+    img: JakubKaminskiImage
   },
   {
     id: 17,
@@ -189,7 +210,7 @@ const dataToGame = [{
     club: 'Raków Częstochowa',
     position: 'Pomocnik',
     age: '23',
-    img: 'src/assets/images/ben-lederman.jpg'
+    img: BenLedermanImage
   },
   {
     id: 18,
@@ -200,7 +221,7 @@ const dataToGame = [{
     club: 'Torino FC',
     position: 'Pomocnik',
     age: '28',
-    img: 'src/assets/images/karol-linetty.jpg'
+    img: KarolLinettyImage
   },
   {
     id: 19,
@@ -211,7 +232,7 @@ const dataToGame = [{
     club: 'Pogoń Szczecin',
     position: 'Pomocnik',
     age: '20',
-    img: 'src/assets/images/mateusz-legowski.jpg'
+    img: MateuszLegowskiImage
   },
   {
     id: 20,
@@ -222,7 +243,7 @@ const dataToGame = [{
     club: ' Club Brugge',
     position: 'Pomocnik',
     age: '23',
-    img: 'src/assets/images/michal-skoras.jpg'
+    img: MichalSkorasImage
   },
   {
     id: 21,
@@ -233,7 +254,7 @@ const dataToGame = [{
     club: 'Legia Warszawa',
     position: 'Pomocnik',
     age: '24',
-    img: 'src/assets/images/bartosz-slisz.jpg'
+    img: BartoszSliszImage
   },
   {
     id: 22,
@@ -244,7 +265,7 @@ const dataToGame = [{
     club: 'AEK Ateny',
     position: 'Pomocnik',
     age: '28',
-    img: 'src/assets/images/damian-szymanski.jpg'
+    img: DamianSzymanskiImage
   },
   {
     id: 23,
@@ -255,7 +276,7 @@ const dataToGame = [{
     club: 'Fenerbahçe SK',
     position: 'Pomocnik',
     age: '24',
-    img: 'src/assets/images/sebastian-szymanski.jpg'
+    img: SebastianSzymanskiImage
   },
   {
     id: 24,
@@ -266,7 +287,7 @@ const dataToGame = [{
     club: 'AS Roma',
     position: 'Pomocnik',
     age: '21',
-    img: 'src/assets/images/nicola-zalewski.jpg'
+    img: NicolaZalewskiImage
   },
   {
     id: 25,
@@ -277,7 +298,7 @@ const dataToGame = [{
     club: 'Charlotte FC',
     position: 'Napastnik',
     age: '26',
-    img: 'src/assets/images/karol-swiderski.jpg'
+    img: KarolSwiderskiImage
   }
 ];
 
