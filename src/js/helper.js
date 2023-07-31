@@ -2,6 +2,7 @@ import RobertLewandowskiImage from '../assets/images/Robert-Lewandowski.jpg'
 import WojciechSzczesnyImage from '../assets/images/Wojciech-Szczesny.jpg'
 import PiotrZielinskiImage from '../assets/images/Piotr-Zieliński.jpg'
 import ArkadiuszMilikImage from '../assets/images/Arkadiusz-Milik.jpg'
+import BartlomiejDragowskiImage from '../assets/images/bartlomiej-dragowski.jpg'
 
 const dataToGame = [{
     id: 1,
@@ -56,7 +57,7 @@ const dataToGame = [{
     club: 'Spezia Calcio',
     position: 'Bramkarz',
     age: '25',
-    img: 'src/assets/images/bartlomiej-dragowski.jpg'
+    img: BartlomiejDragowskiImage
   },
   {
     id: 6,
