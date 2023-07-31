@@ -1,3 +1,8 @@
+import RobertLewandowskiImage from '../assets/images/Robert-Lewandowski.jpg'
+import WojciechSzczesnyImage from '../assets/images/Wojciech-Szczesny.jpg'
+import PiotrZielinskiImage from '../assets/images/Piotr-Zieliński.jpg'
+import ArkadiuszMilikImage from '../assets/images/Arkadiusz-Milik.jpg'
+
 const dataToGame = [{
     id: 1,
     hint1: 'Jest piłkarzem FC Barcelony',
@@ -7,7 +12,7 @@ const dataToGame = [{
     club: 'FC Barcelona',
     position: 'Napastnik',
     age: '34',
-    img: '/src/assets/images/Robert-Lewandowski.jpg'
+    img: RobertLewandowskiImage
   },
   {
     id: 2,
@@ -18,7 +23,7 @@ const dataToGame = [{
     club: 'Napoli',
     position: 'Pomocnik',
     age: '29',
-    img: '/src/assets/images/Piotr-Zieliński.jpg'
+    img: PiotrZielinskiImage
   },
   {
     id: 3,
@@ -29,7 +34,7 @@ const dataToGame = [{
     club: 'Juventus Turyn',
     position: 'Bramkarz',
     age: '33',
-    img: '/src/assets/images/Wojciech-Szczesny.jpg'
+    img: WojciechSzczesnyImage
   },
   {
     id: 4,
@@ -40,7 +45,7 @@ const dataToGame = [{
     club: 'Juventus Turyn',
     position: 'Napastnik',
     age: '29',
-    img: '/src/assets/images/Arkadiusz-Milik.jpg'
+    img: ArkadiuszMilikImage
   },
   {
     id: 5,
